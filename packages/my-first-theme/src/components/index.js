@@ -31,6 +31,7 @@ const Root = ( { state, actions } ) => {
         <meta name="description" content={ metaContent } ></meta>
       </Head>
       <Global
+        {/* only style html tags in Global */}
         styles={ css`
         * {
           margin: 0;
